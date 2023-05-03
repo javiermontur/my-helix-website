@@ -54,8 +54,8 @@ export function decorateMain(main) {
   decorateButtons(main);
   decorateIcons(main);
   buildAutoBlocks(main);
-  normalizeHeadings(main);
   decorateSections(main);
+  normalizeHeadings(main);
   decorateBlocks(main);
 }
 
