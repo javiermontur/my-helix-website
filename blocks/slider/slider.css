@@ -1,0 +1,12 @@
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slider > div {
+  display: none;
+}
+
+.slider > div.active {
+  display: block;
+}
