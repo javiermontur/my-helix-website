@@ -56,7 +56,7 @@ export function decorateMain(main) {
   buildAutoBlocks(main);
   decorateSections(main);
   decorateBlocks(main);
-  normalizeHeadings(main, 'h1, h2, h3, h4, h5, h6');
+  normalizeHeadings(main, ['h1', 'h2', 'h3', 'h4', 'h5', 'h6']);
 }
 
 /**
